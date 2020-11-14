@@ -1,0 +1,18 @@
+Le jeu tourne en 800 par 450
+Lorsque vous testez le jeu, il y a un menu en haut a gauche qui indique la resolution, verifiez a le mettre sur "Standalone (800x450)",
+sinon le canvas sera décalé.
+
+En haut de votre scene se trouve un bouton 2D. Cela fera passer Unity en mode 2D, ce qui vous retirera pas mal de soucis.
+
+Dans la scene, si vous ne voyez pas les tuiles mais vous voyez le bouton, c'est que c'est dezommé pour voir le canvas.
+Il suffit de selectionner une tuile dans la Hierarchy et d'appuyer sur F sur le clavier avec la souris dans la scene, ca focusera
+sur l'element en question. Il suffit ensuite de dezoommer un peu pour voir le tout.
+
+Si vous ne voyez pas un element (par exemple la camera), il se peut que celui ci soit masqué dans la Hierarchy.
+Tout a gauche de l'element se trouve 2 boutons : Visibilité dans la scene et manipulation.
+Si l'un des deux est barré, vous ne pourrez soit pas voir soit pas deplacer l'objet concerné.
+
+Vous pouvez changer la tuile de depart, la distance et le shift en selectionnant l'objet "Player".
+Pour changer la tuile, drag & drop depuis la Hierarchy vers l'emplacement, ou appuyer sur le petit rond a coté du nom de la tuile dans l'Inspector.
+Pour les 2 autres, il suffis de changer le int dans l'Inspector.
+Vous pouvez le faire pendant que le jeu tourne, pour tester plusieurs solutions sans relancer.
